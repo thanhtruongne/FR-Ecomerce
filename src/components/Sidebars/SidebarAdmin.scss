@@ -1,0 +1,50 @@
+.title_class_admin {
+   span {
+    font-size: 16px;
+   }
+
+   svg {
+    font-size: 24px;
+   }
+
+}
+.link_content_sidebar.tab {
+   background-color: rgb(176, 176, 176);
+      transition: all ease .2s;
+}
+.link_content_sidebar {
+
+
+
+   &:hover a{
+      background-color: rgb(176, 176, 176);
+      transition: all ease .2s;
+   }
+
+   // &:hover > .item_link_admin {
+   //    background-color: rgb(176, 176, 176);
+   //    transition: all ease .2s;
+   // }
+}
+
+.item_link_admin {
+
+
+   &:hover {
+      background-color: rgb(176, 176, 176);
+      transition: all ease .2s;
+   }
+}
+
+.link_submit {
+
+   &:hover > a{
+      background-color: rgb(176, 176, 176);
+      transition: all ease .2s;
+   }
+   
+   &.bar {
+      background-color: rgb(176, 176, 176);
+      transition: all ease .2s;
+   }
+}

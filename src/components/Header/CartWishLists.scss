@@ -1,0 +1,29 @@
+.heart_WishList,.Cart {
+  min-height: 40px;
+    padding-top: 10px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.Cart {
+  padding: 10px 0 0 20px;
+  margin-left: 20px;
+  border-left: 1px solid rgba(0,0,0,.1);
+  
+}
+
+.list { 
+  top: 33px;
+  right: 0;
+  z-index: 10055;
+  width: 150px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+   li {
+    &:hover .link {
+      background-color: rgb(204, 198, 198);
+      color: #fff;
+    }
+   }
+}

@@ -1,0 +1,45 @@
+.my_cart {
+  header {
+    border: none;
+    background: #f7f7f7;
+    padding: 15px 0;
+    margin-bottom: 20px;
+
+    h3 {
+      background: none;
+      padding: 0;
+      text-transform: uppercase;
+      color: #151515;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+  }
+
+  .wrapper {
+    border: 1px solid #ebebeb;
+    border-bottom: none;
+
+  }
+
+  .label-cart {
+    border-bottom: 1px solid #ebebeb;
+    font: 600 18px/1.15 Poppins;
+    letter-spacing: 0;
+    color: #151515;
+
+    .label_item {
+      padding: 15px 20px;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+  }
+}
+.sub_detail {
+  text-align: right !important;
+  .price {
+    font: 600 20px/1.15 Poppins;
+    color: #333;
+    letter-spacing: 0;
+  }
+}

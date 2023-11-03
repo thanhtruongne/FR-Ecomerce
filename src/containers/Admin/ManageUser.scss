@@ -1,0 +1,26 @@
+.management_user_admin {
+  background-color: white;
+
+
+  .workspace-admin {
+    header
+    {
+      border-bottom:  2px solid rgb(155, 152, 152);
+      
+    }
+    .left-manage {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+
+    .content_downling_admin {
+      margin: 14px 30px 0 14px;
+      width: 100%;
+      
+      .icon {
+        font-size: 2rem;
+      }
+    }
+  }
+}

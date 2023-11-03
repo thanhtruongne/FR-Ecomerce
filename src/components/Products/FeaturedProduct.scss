@@ -1,0 +1,77 @@
+header.header_features {
+    color: #151515;
+    border-bottom: 2px solid #ee3131;
+    margin-bottom: 20px;
+    width: 100%;
+     margin-left: 20px;
+    h2 {
+        font: 600 20px/1.15 Poppins;
+    color: #151515;
+    padding: 15px 0;
+    margin: 0;
+    text-transform: uppercase;
+    }
+}
+
+.grid_views {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+display: flex;
+}
+
+.content_col {
+
+}
+.grid_display {
+    width: 30%;
+    padding-right: 20px;
+    .product_image {
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.desc_features {
+
+    .title {
+        text-transform: none;
+        letter-spacing: 0;
+        margin-bottom: 3px;
+        font: 14.4px Poppins;
+        color: #2b3743;
+    }
+
+    .Rating_star {
+        margin-bottom: 10px;
+        font-size: 14px;
+        margin-left: -4px;
+    }
+
+    .price_features {
+        span {
+            position: relative;
+            font-weight: inherit !important;
+            font-size: 12.6px;
+            text-decoration: inherit !important;
+        }
+    }
+}
+.grid_item_features {
+    margin-right: -22px;
+}
+
+
+.Phone_line,.Laptop_line,.Accesorries_line {
+    width: 33.333%;
+    padding-left: 20px;
+    min-height: 1px;
+    vertical-align: top;
+}

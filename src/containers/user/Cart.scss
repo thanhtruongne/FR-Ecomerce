@@ -1,0 +1,124 @@
+.cart_detail {
+  width: 400px;
+  right: -400px;
+  
+  background-color: #1c1d1d;
+  z-index: 9999999;
+  padding: 0 20px 20px  ;
+  transition: all .35s cubic-bezier(.46,.01,.32,1) !important;
+}
+.title_cart {
+  height: 80px;
+  border-bottom: 1px solid #343535;
+  font: 600 18px/1.15 Poppins;
+}
+.sub_detail {
+  overflow-y: auto;
+  height: 220px;
+  border-top: 1px solid #343535;
+  padding: 15px 0 ;
+  
+  .title {
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .1em;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .desc {
+    font-style: italic;
+    font-weight: 400;
+    opacity: .7;
+  }
+
+}
+.content_cart_detail {
+  height: 400px;
+}
+.item_cart {
+  max-height: 500px;
+  font-size: 14px;
+  padding-top: 30px;
+
+  .wrapper {
+    margin-left: -15px;
+  }
+
+  .sub_image_cart {
+    
+  }
+
+  .qualnity {
+    max-width: 90px;
+    border:1px solid #343535;
+    background: none;
+    .minus{
+      background: none;
+      border: none;
+      padding: 0;
+      
+      span {
+        border-right: 1px solid #343535;
+        padding: 0 8px;
+      }
+    }
+    .plus {
+      background: none;
+      border: none;
+       padding: 0;       padding: 0;
+      span {
+        width: 100%;
+        padding: 0 8px;
+        display: block;
+        border-left: 1px solid #343535;
+      }
+    }
+  }
+}
+
+.cart_row {
+  padding: 15px 20px;
+  border: 1px solid #ebebeb;
+  .link_item_cart {
+    margin-left: -20px;
+  }
+  .image_cart {
+  
+  }
+  .cart_detail_pirce {
+    padding-left: 20px;
+    .qualnity {
+      max-width: 90px;
+      border:1px solid #343535;
+      background: none;
+      .minus{
+        background: none;
+        border: none;
+        padding: 0;
+        
+        span {
+          border-right: 1px solid #343535;
+          padding: 0 8px;
+        }
+      }
+      .plus {
+        background: none;
+        border: none;
+         padding: 0;       padding: 0;
+        span {
+          width: 100%;
+          padding: 0 8px;
+          display: block;
+          border-left: 1px solid #343535;
+        }
+      }
+    }
+
+    .price_total {
+      font: 600 20px/1.15 Poppins;
+  color: #333;
+  letter-spacing: 0;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.home-tabs-inner {
+    padding-left: 24px;
+}
+.product_slider  {
+    margin-left: -20px;
+    margin-right: -37px;
+}
+.grid_flutter_image {
+    display: flex;
+    margin-left: -16px;
+    margin-right: -37px
+}
+.tab-right {
+    position: static;
+    text-align: left;
+    border-bottom: 2px solid #ee3131;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    margin-right: -35px;
+   
+    .stab2:first-child{
+        border: none;
+        margin-left: 0;
+        padding: 0;
+    }
+    .stab2 {
+        display: inline-block;
+        margin-left: 20px;
+        padding-left: 20px;
+        border-left: 1px solid #ebebeb;
+        color: #151515;
+        margin-bottom: 0;
+        font: 600 20px/1.15 Poppins;
+        opacity: .5;
+        text-transform: uppercase;
+         
+        &:hover {
+            cursor: pointer;
+        }
+
+    }
+    
+    
+}
+@keyframes fadein {
+    0%, 35% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+    
+}
+.stab2.text {
+    opacity: 1;
+}
+.wrapper_banner {
+    padding-left: 20px;
+}
+.grid_image_item {
+    padding-left: 20px;
+    min-height: 1px;
+    vertical-align: top;
+
+    .grid_image_link {
+        position: relative;
+        background: url('https://digital-world-2.myshopify.com/cdn/shop/files/banner2-home2_2000x_crop_center.png?v=1613166657');
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            background: rgba(0,0,0,.1);
+            transition: all .3s ease 0s;
+            -webkit-transition: all .3s ease 0s;
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+}

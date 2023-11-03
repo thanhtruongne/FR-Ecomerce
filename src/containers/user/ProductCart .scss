@@ -1,0 +1,40 @@
+.item_cart {
+  max-height: 500px;
+  font-size: 14px;
+  padding-top: 30px;
+
+  .wrapper {
+    margin-left: -15px;
+  }
+
+  .sub_image_cart {
+    
+  }
+
+  .qualnity {
+    max-width: 90px;
+    border:1px solid #343535;
+    background: none;
+    .minus{
+      background: none;
+      border: none;
+      padding: 0;
+      
+      span {
+        border-right: 1px solid #343535;
+        padding: 0 8px;
+      }
+    }
+    .plus {
+      background: none;
+      border: none;
+       padding: 0;       padding: 0;
+      span {
+        width: 100%;
+        padding: 0 8px;
+        display: block;
+        border-left: 1px solid #343535;
+      }
+    }
+  }
+}

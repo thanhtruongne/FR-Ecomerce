@@ -1,0 +1,20 @@
+.item_choose_page {
+
+    height: 30px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in .2s;
+    background-color: rgb(200, 195, 195);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.normalize {
+  height: 30px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

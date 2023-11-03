@@ -1,0 +1,72 @@
+#shoptify-collection_product {
+
+    header {
+        border: none;
+        background: #f7f7f7;
+        padding: 15px 0;
+        margin-bottom: 20px;
+
+        .title_collect {
+            background: none;
+            padding: 0;
+            text-transform: uppercase;
+            color: #151515;
+            display: block;
+            margin-bottom: 10px;
+            font: 600 18px/1.15 Poppins;
+        }
+        .breadcrumb_collect {
+            font: 400 14px/1.45 Poppins;
+            color: #505050;
+        }
+
+    }
+
+    .collection_toolbar {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 10px;
+     
+        border: 1px solid #e5e5e5!important;
+    
+        .filter_content_collect{
+             
+    
+            .title_filter_content {
+                display: block;
+                color: #505050;
+                font-size: 14px;
+                line-height: 1;
+                margin: 0 0 1rem 0.5rem;
+                width: 100%;
+                font-weight: 600;
+            }
+    
+            .roll_chance_content {
+                margin-left: 0.5rem;
+            }
+    
+            .detail_collect {
+                border: 1px solid rgba(26,27,24,.55);
+                margin: 0 0 0.5rem 0.5rem;
+                height: 47px;
+                line-height: 45px;
+                position: relative;
+    
+                .summary_content {
+                    position: relative!important;
+                    padding: 0 30px 0 20px;
+                    height: 45px;
+                    line-height: 45px;
+                    font-size: 12px;
+                    color: #1a1b18bf;
+                }
+            }
+        }
+    }
+
+    .product_grid_template {
+        margin-left: -20px;
+    }
+
+}
